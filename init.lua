@@ -16,26 +16,27 @@ vim.o.ignorecase = true
 vim.o.smartcase = true
 vim.o.hlsearch = true
 
--- vim.o.wildmode = "longest,list,full"
--- vim.o.wildmenu = true
+vim.o.wildmode = "longest,list,full"
+vim.o.wildmenu = true
 
--- vim.o.ruler = true
--- vim.o.laststatus = 2
--- vim.o.showcmd = true
--- vim.o.showmode = true
+vim.o.ruler = true
+vim.o.laststatus = 2
+vim.o.showcmd = true
+vim.o.showmode = true
 
--- vim.o.wrap = true
--- vim.o.breakindent = true
+vim.o.wrap = true
+vim.o.breakindent = true
 
--- vim.o.encoding = "utf-8"
+vim.o.encoding = "utf-8"
 
--- vim.o.textwidth = 0
+vim.o.textwidth = 0
 
--- vim.o.hidden = true
+vim.o.hidden = true
 
--- vim.o.number = true
+vim.o.number = true
 
--- vim.o.title = true
+vim.o.title = true
+vim.o.scrolloff = 10
 
 
 vim.cmd([[

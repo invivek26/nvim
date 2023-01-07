@@ -43,7 +43,6 @@ local function install_plugins()
 end
 
 install_plugins()
-print("install plugins")
 
 vim.g.mapleader = " "
 local builtin = require('telescope.builtin')
