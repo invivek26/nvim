@@ -37,6 +37,8 @@ vim.o.number = true
 
 vim.o.title = true
 vim.o.scrolloff = 10
+vim.o.foldmethod = "indent"
+vim.o.foldenable = false
 
 
 vim.cmd([[
@@ -57,6 +59,5 @@ let g:clang_format#style_options = {
 ]])
 
 vim.cmd([[
-  autocmd InsertLeave *.c,*.cpp ClangFormat
+  autocmd BufWritePre *.c,*.cpp,*.h,*.hpp ClangFormat
 ]])
-
