@@ -35,6 +35,7 @@ local function install_plugins()
   vim.cmd("Plug 'rafamadriz/friendly-snippets'")
 
   vim.cmd("Plug 'VonHeikemen/lsp-zero.nvim'")
+  vim.cmd("Plug 'EdenEast/nightfox.nvim'")
 
   vim.cmd("call plug#end()")
 
@@ -61,3 +62,4 @@ lsp.nvim_workspace()
 lsp.setup()
 
 
+vim.cmd("colorscheme nightfox")
